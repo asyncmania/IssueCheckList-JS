@@ -1,10 +1,17 @@
 {
-  "name": "IssuesCheckList-Js",
+  "name": "IssuesCheckList",
   "version": "1.0.0",
   "main": "index.js",
   "author": "Josiah Ilesanmi <ilesanmi.josiah@gmail.com>",
   "license": "MIT",
+  "scripts": {
+    "start": "node src/index.js",
+    "test": "yarn jest --verbose"
+  },
   "dependencies": {
     "axios": "0.21.1"
+  },
+  "devDependencies": {
+    "jest": "26.6.3"
   }
 }

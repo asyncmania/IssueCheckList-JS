@@ -5,7 +5,7 @@ class HttpClient {
   get(parameters) {
     return new Promise((resolve, reject) => {
       const { url } = parameters;
-
+      
       axios
         .get(url)
         .then((response) => {
