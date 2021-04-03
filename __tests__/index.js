@@ -59,7 +59,7 @@ describe('IssuesCheckList Class', () => {
 
   })
 
-  test('Ouput format method should be called', () => {
+  test('console formatter format method should be called once', () => {
 
     const spy = jest.spyOn(consoleOutputFormatter, 'format').mockImplementation(jest.fn())
 
